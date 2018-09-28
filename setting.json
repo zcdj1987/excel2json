@@ -1,0 +1,20 @@
+{
+  "allIn": true,
+  "configName":"jsonConfig",
+  "isFileSplit":true,
+  "splitKey":"@",
+  "list": [
+    {
+      "xlBook": "元素表",
+      "xlSheet": "主表",
+      "json": "Elements",
+      "keys":{
+      	"Id":"int",
+      	"Name":"string",
+      	"Desc":"string",
+      	"Typ":"string",
+      	"CarryElement":"arr_int"
+      }
+    }
+  ]
+}
